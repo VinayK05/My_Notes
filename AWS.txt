@@ -1,4 +1,4 @@
-What is Internet gateway in AWS?
+## What is Internet gateway in AWS?
 
 An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet. It supports IPv4 and IPv6 traffic. It does not cause availability risks or bandwidth constraints on your network traffic.
 
