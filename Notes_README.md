@@ -5,13 +5,14 @@ An internet gateway is a horizontally scaled, redundant, and highly available VP
 An internet gateway enables resources in your public subnets (such as EC2 instances) to connect to the internet if the resource has a public IPv4 address or an IPv6 address. Similarly, resources on the internet can initiate a connection to resources in your subnet using the public IPv4 address or IPv6 address. For example, an internet gateway enables you to connect to an EC2 instance in AWS using your local computer.
 
 An internet gateway provides a target in your VPC route tables for internet-routable traffic. For communication using IPv4, the internet gateway also performs network address translation (NAT). For communication using IPv6, NAT is not needed because IPv6 addresses are public.
+***
 
-
-What are route tables in AWS?
-
+**What are route tables in AWS?**
+---
 A route table contains a set of rules, called routes, that determine where network traffic from your subnet or gateway is directed.
 
-Route table concepts
+**Route table concepts**
+
 The following are the key concepts for route tables.
 •	Main route table—The route table that automatically comes with your VPC. It controls the routing for all subnets that are not explicitly associated with any other route table.
 •	Custom route table—A route table that you create for your VPC.
@@ -27,6 +28,7 @@ The following are the key concepts for route tables.
 •	Local gateway route table—A route table that's associated with an Outposts local gateway. For more information, see Local gateways in the AWS Outposts User Guide.
 
 VPC
+---
 Imagine you want to set up a private, secure, and isolated area in the cloud where you can run your applications and store your data. This is where a VPC comes into play.
 
 A VPC is a virtual network that you create in the cloud. It allows you to have your own private section of the internet, just like having your own network within a larger network. Within this VPC, you can create and manage various resources, such as servers, databases, and storage.
@@ -68,7 +70,8 @@ SECURITY GROUPS :
 Security groups are applied at the instance level.
 Security groups are meant to open only specific ports and allow only the specific traffic into the ec2 instance.
 
-ROUTE 53 :
+ROUTE 53 
+---
 Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises.
 
 You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.
