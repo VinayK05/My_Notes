@@ -98,6 +98,9 @@ ROUTE 53
 ---
 Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises.
 
+*DNS maps the domain name with the IP address or DNS is the one that resolves the domain name with the IP address.
+### But in real world scenarion DNS resolves Domain name to the loadbalencer IP address only.
+
 You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.
 If you choose to use Route 53 for all three functions, be sure to follow the order below:
 
