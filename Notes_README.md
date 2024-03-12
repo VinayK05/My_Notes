@@ -10,6 +10,7 @@ An internet gateway provides a target in your VPC route tables for internet-rout
 **What are route tables in AWS?**
 ---
 A route table contains a set of rules, called routes, that determine where network traffic from your subnet or gateway is directed.
+* Route tables are the one that defines how to route the traffic within the subnet.
 
 **Route table concepts**
 
