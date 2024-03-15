@@ -67,6 +67,10 @@ Connect your VPCs to your on-premises networks using AWS Virtual Private Network
 SECURITY GROUPS :
 Security groups are applied at the instance level.
 Security groups are meant to open only specific ports and allow only the specific traffic into the ec2 instance.
+
+**NACL :*
+
+NACL is applied at the subnet level.
 ----------
 ROUTE 53 :
 Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises.
