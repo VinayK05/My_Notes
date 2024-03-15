@@ -38,6 +38,8 @@ sudo docker run hello-world
 ```
 ------------------------------------------------------------------
 ### Installing minikube
+#### NOTE:  
+If you are installing Minikube in Ec2 instances , select the instance-type as t2.medium as running minikube needs 2 cpus(t2.medium does not come under free tier).
 ```
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
 ```
