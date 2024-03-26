@@ -1,0 +1,19 @@
+# Playbook to download a software or an artifact and unzip
+
+---
+
+- name: play to download the jar file from jfrog and unarchive
+  hosts: dev
+  become: true
+  user: vk
+  tasks:
+   - name: create a folder
+     file:
+       path: /var/deploy
+       state: directory
+   - name : download the tar
+     get_url:
+     url: https://
+     dest: /var/tmp/
+   - name: unzip
+     command: unzip -o /var/tmp/flipkar.zip -d /var/deploy
