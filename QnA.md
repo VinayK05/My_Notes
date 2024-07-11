@@ -93,6 +93,8 @@ Flowchart:
 2. Configure Route Table to use VPC Endpoint
 3. Update Security Group and NACL
 
+### 6)
+
 
 
 
